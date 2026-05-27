@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 // Exercice 2 - Héritage
 // Créer les fichiers Animal.php, Mammifere.php, Chien.php
@@ -10,16 +10,10 @@
 
 // Créer un nouveau Chien et utiliser toutes les méthodes de sa classe.
 
-class Animal
+abstract class Animal
 {
-public function info(): string
-{
-    return "Je suis un animal";
+    public function info(): string
+    {
+        return "Je suis un animal";
+    }
 }
-
-}
-
-
-
-
-?>

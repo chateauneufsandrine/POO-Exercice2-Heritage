@@ -1,4 +1,4 @@
-<?php 
+<?php
 require_once "Mammifere.php";
 // Exercice 2 - Héritage
 // Créer les fichiers Animal.php, Mammifere.php, Chien.php
@@ -9,12 +9,8 @@ require_once "Mammifere.php";
 
 final class Chien extends Mammifere
 {
-public function crie(): string
-{
-    return "J'aboie";
+    public function crie(): string
+    {
+        return "J'aboie";
+    }
 }
-}
-
-
-
-?>
